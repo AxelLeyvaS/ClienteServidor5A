@@ -9,6 +9,8 @@ import { DeshboardComponent } from './pages/deshboard/deshboard.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component';
 import { PagesComponent } from './pages/pages.component';
+import { PromesaComponent } from './pages/promesa/promesa.component';
+import { ObservableComponent } from './pages/observable/observable.component';
 
 const routes: Routes = [
   {
@@ -19,6 +21,8 @@ const routes: Routes = [
       { path: 'contact', component: ContactComponent },
       { path: 'deshboard', component: DeshboardComponent },
       { path: 'home', component: HomeComponent },
+      { path: 'promesa', component: PromesaComponent },
+      { path: 'observable', component: ObservableComponent },
       { path: 'login', component: LoginComponent },
       { path:'', pathMatch:'full',redirectTo:'/home'}
     ]
